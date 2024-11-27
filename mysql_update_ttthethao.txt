@@ -1,0 +1,5 @@
+UPDATE posts SET cover = REPLACE(cover, 'http://localhost:9999', 'https://thethaotravinh.vn');
+
+UPDATE posts SET content = REPLACE(content, 'http://localhost:9999', 'https://thethaotravinh.vn');
+
+UPDATE links SET image = REPLACE(image, 'http://localhost:9999', 'https://thethaotravinh.vn');

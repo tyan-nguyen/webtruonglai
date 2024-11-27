@@ -1,0 +1,137 @@
+.bg-primary {
+    background-color: #4d7459 !important;
+}
+.text-primary {
+    color: #4d7459 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #4d7459;
+    border-color: #4d7459;
+}
+
+.btn-primary:hover {
+    color: #fff;
+}
+
+.blog{
+   list-style: none;
+   margin-left: 0;
+   padding-left: 1em;
+   text-indent: -1em;
+}
+/*------index--------*/
+.aWhite, .aWhite:hover{
+	color:white;
+}
+#dBlog a{
+	color: white;
+}
+/*------index_end------*/
+/*------blogs------*/
+.post-entry .thumbnail{
+	text-align: center;
+}
+.post-entry .thumbnail img{
+	max-width:300px;
+}
+
+.post-entry h2 a{
+	color: #234242;
+}
+
+.content .category{
+	color: #f4aa64;
+}
+
+.blog li a{
+	color: #234242;
+}
+.blog li a:hover{
+	color: #f4aa64;
+}
+.bg-warning {
+    background-color: #f4aa64 !important;
+}
+.hero-header{
+	margin-bottom:0rem !important;
+}
+/*------blogs_end------*/
+
+/*about*/
+.about2{
+	margin-top:100px;
+	background-color: #4d7459;
+}
+.about2 .display-5, .about2 .text-body{
+	color: white !important;
+}
+/*about end*/
+
+/*boostrap replace*/
+.modal-header {
+    padding: 0.5rem !important;
+}
+/*boostrap replace_end*/
+
+/*showcase*/
+.itemsContainer:hover .play{display:block; opacity: 1;}
+.play{
+  position : absolute;
+    /*display:none;*/
+    display:block; 
+    opacity: 0.7;
+    top:30%; 
+    width:80px;
+    margin:0 auto; left:0px;
+    right:0px;
+    z-index:100;
+    cursor: pointer;
+} 
+/*showcase_end*/
+
+/* map */
+.ulmap li{
+	display: inline-block;
+	color: white;
+	padding-right: 25px;
+	text-shadow: -1px -1px 0 #4d7459, 1px -1px 0 #4d7459, -1px 1px 0 #4d7459, 1px 1px 0 #4d7459;
+}
+
+.ulmap-contact li{
+	display: inline-block;
+	color: #4d7459;
+	padding-right: 25px;
+	font-weight: bold;
+	/*text-shadow: -1px -1px 0 #4d7459, 1px -1px 0 #4d7459, -1px 1px 0 #4d7459, 1px 1px 0 #4d7459;*/
+}
+
+/* lang */
+.alang{
+	font-size: 11px;
+}
+
+/*services*/
+.service-item a{
+	color: #234242;
+}
+.service-item a:hover{
+	color: #f4aa64;
+}
+/*services_end*/
+/**global presence*/
+.global-presence, .global-presence h2{
+	color:white !important;
+}
+
+/*replace custom css*/
+body{
+	font-family: Arial,sans-serif !important;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: Arial,sans-serif !important;
+}
+.btn {
+    font-family: Arial,sans-serif !important;
+}

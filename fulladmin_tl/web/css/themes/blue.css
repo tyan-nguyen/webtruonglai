@@ -1,0 +1,59 @@
+.header-nav {
+    color: #dcdcdc;
+    background-color: #206ec4;
+}
+.second-nav .bg {
+    background: #028e39;
+}
+
+.menunavgreen>div>div>a {
+    background-color: #028e39;
+}
+
+#menusite .navbar-default {
+    border-bottom: 1px #028e39 solid;
+    min-height: 44px;
+}
+#menusite .menuctwrap {
+    border-bottom: 0px #206ec4 solid;
+}
+#menu-site-default .conner-left {
+    background-image: url(images/blue/menu-left.png);
+}
+#menu-site-default .conner-right {
+    background-image: url(images/blue/menu-right.png);
+}
+
+.bg-hot-news-title {
+    background: #206ec4;
+}
+
+.faqopinion .sendfaq a, .faqopinion a.faqitem span, .box-icon-body .titlebox h2, .panel-primary>.panel-heading, .genpage_cute .pagination li a:hover, .genpage_cute .pagination li.active a, .genpage_cute .pagination li:first-child a:hover, .genpage_cute .pagination li.active:first-child a, .genpage_cute .pagination li:last-child a:hover, .genpage_cute .pagination li.active:last-child a, .sitebtntool ul.maintoolbtns li a, .sitebtntool ul.maintoolbtns li .sp1 {
+    background-color: #206ec4;
+    border-color: #206ec4;
+}
+
+#toggleearchbtn {
+    color: #fff;
+    border-left: 1px white solid;
+}
+.tabmenu {
+    background: #206ec4;
+}
+
+.titlebox h2 a {
+    color: #428cdc;
+    text-transform: uppercase;
+}
+/*foooter*/
+.footer-title strong{
+    color:white;
+}
+
+/*VIEW TIN LIEN QUAN*/
+.faqopinion .tptabtitle ul li a.active {
+    color: #206ec4;
+}
+.third-nav ul.breadcrumbs {
+    background-color: #206ec4;
+}

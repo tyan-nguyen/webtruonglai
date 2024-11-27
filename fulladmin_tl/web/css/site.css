@@ -1,0 +1,334 @@
+html,
+body {
+    height: 100%;
+}
+
+.single-col{
+    padding-top: 30px !important;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a{
+    color: #ec971f;
+}
+
+.footer {
+    height: 60px;
+    background-color: #222;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    color: #ec971f;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.item{
+    margin-top:10px;
+    margin-left: 0; padding-left: 0;
+}
+
+.item-last{
+    margin-right: 0; padding-right: 0;
+}
+
+.item-actor .thumbnail{
+    height: 120px;
+}
+
+.item-actor .thumbnail .caption{
+    padding-top: 0;
+}
+
+.item-actor .thumbnail img{
+    height:80px;
+}
+.item-actor .thumbnail h4{
+    font-size: 0.8em;
+}
+
+.item .thumbnail img{
+    height:200px;
+}
+
+.item .thumbnail .caption{
+    height:70px;
+}
+
+.item .thumbnail .caption a, .item-actor .thumbnail .caption a{
+    color: #212121;
+    font-weight: bold;
+}
+
+.item .thumbnail .caption a:hover{
+    text-decoration: none;
+    color: #FF8C00;
+}
+
+.row{
+
+}
+.row h3{
+    margin: 0;
+    padding: 5px;
+    width: 150px;
+    background: #222;
+    font-size: 1.1em;
+    color: #ec971f;
+    font-weight: bold;
+}
+
+.row header{
+    background: #ec971f;
+    font-weight: bold;
+    clear:both;
+}
+
+/*
+.view-block header{
+    padding: 5px;
+    background: #222;
+    color: #ec971f;
+    font-weight: bold;
+    clear:both;
+}
+*/
+
+.view-block-left{
+
+}
+
+
+.view-block h1{
+    margin-top:0;
+    padding-top:0;
+}
+
+/* view film  */
+.film-info h1{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h1{
+    color: #ec971f;
+}
+
+.film-info img{
+    height: 300px;
+}
+
+.label-custom{
+    padding: 5px;
+    font-size: 100%;
+}
+
+.label-custom a{
+    color: white;
+}
+
+.label-custom a:hover{
+    text-decoration: none;
+}
+
+.film-info-row{
+    margin: 5px auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.film-info-row-last{
+    border-bottom: none;
+    margin-top:15px;
+}
+
+.film-info-row-first{
+    margin-top: 10px;
+}
+
+.wrap-actor-block{
+    margin-top: 10px;
+}
+
+/** view phim */
+.block-film header{
+    padding: 0px;
+    /*background: #222;*/
+    color: #ec971f;
+    font-weight: bold;
+    clear: both;
+}
+
+.block-film header h1{
+    padding: 0;
+    margin: 0;
+    color: #ec971f;
+    clear: both;
+}
+
+.block-film .view-block{
+    margin: 10px auto;
+}
+
+b{
+    color: #ec971f;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.row h2{
+    border-bottom: 1px solid #ec971f;
+    color: #ec971f;
+    font-weight: bold;
+    margin-top:0;
+}
+
+/** quang cao */
+.add-block-1{
+    margin-bottom: 20px;
+}
+.add-left{ 
+    height: 70px; 
+    padding-left: 0; 
+    margin-top: 5px;
+}
+
+.add-right{ 
+    height: 70px; 
+    padding-right: 0; 
+    margin-top: 5px;
+}
+.add-medium img{
+    width: 100%;
+    height: 70px;
+}
+
+.add-under{
+    margin-top: 20px;
+}
+
+.add-large img{
+    width: 100%;
+    height: 215px;
+}
+
+body{
+    background: #FFF9F9;
+}
+
+.navbar{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.no-m-p{
+    padding: 0;
+    margin: 0;
+}
+
+.no-p-l{
+    padding-left: 0;
+    margin-left:0;
+}
+
+.no-p-r{
+    padding-right: 0;
+    margin-right:0;
+}
+
+
+@media only screen and (max-width: 500px) {
+   /** quang cao */
+.add-left{ 
+    padding-left: 0; 
+    padding-right: 0; 
+}
+
+.add-right{ 
+    padding-left: 0; 
+    padding-right: 0; 
+}
+
+.item{
+    margin-right: 0; padding-right: 0;
+}
+
+
+}

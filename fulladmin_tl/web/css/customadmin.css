@@ -1,0 +1,71 @@
+/*--------------------------------------------------------------
+/** 1. VARIABLES
+--------------------------------------------------------------*/
+:root {
+  /*  --admin-primary-color: #b83f26;
+    --admin-secondary-color: #df7e1c;*/
+    --admin-primary-color: #2b4f65;
+    --admin-secondary-color: #608296;
+}
+
+.error-summary{
+	color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.list-catalog {
+    max-height: 250px;
+    max-width: 100%;
+    overflow-y: scroll;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.img-view-admin{
+	width:250px;
+	height:auto;
+}
+
+.dCover{
+	margin-bottom:15px;
+}
+
+.dCover img{
+	max-width: 300px;
+	height:auto;
+}
+
+.sButton, .sButtonGroup {
+    cursor: pointer;
+}
+
+/*admin inteface*/
+.skin-blue .main-header .logo {
+    background-color: white !important;
+}
+.skin-blue .main-header .navbar {
+    /*background-color: var(--admin-secondary-color) !important;*/
+    background: -webkit-linear-gradient(right, var(--admin-primary-color) 10%, var(--admin-secondary-color) 100%) !important;
+}
+.navbar-custom-menu .btn-primary {
+    background-color: var(--admin-primary-color) !important;
+    border-color: var(--admin-primary-color) !important;
+}
+.alert-message{
+	/*margin-bottom:0px;*/
+}
+.content-wrapper hr{
+	border-color: var(--admin-secondary-color);
+}
+.form-group hr{
+	margin-top:0px;
+}
+.content-wrapper .content-header h1{
+	color: var(--admin-secondary-color);
+}
+/*admin interface_end*/
