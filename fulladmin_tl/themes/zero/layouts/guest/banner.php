@@ -5,20 +5,30 @@ $posts = \app\modules\dashboard\models\Posts::getPostByType('SLIDE',5);
 <div class="banner-carousel banner-carousel-1 mb-0">
 <?php foreach ($posts as $iPost=>$post){ ?>
  <div class="banner-carousel-item" style="background-image:url(<?= $post->imgCover ?>)">
+ 	 <?php if($post->summary):?>
     <div class="slider-content text-right">
         <div class="container h-100">
           <div class="row align-items-center h-100">
               <div class="col-md-12">
+              	<?php if($post->title):?>
                 <h2 class="slide-title" data-animation-in="slideInDown"><?= $post->title ?></h2>
+                <?php endif;?>
+                <?php if($post->summary):?>
                 <h3 class="slide-sub-title" data-animation-in="fadeIn"><?= $post->getSummaryByChars() ?></h3>
+                <?php endif;?>
+                <?php if($post->summary_one):?>
                 <p class="slider-description lead" data-animation-in="slideInRight"><?= $post->summary_one?></p>
+                <?php endif;?>
+                <?php if($post->summary_two):?>
                 <div data-animation-in="slideInLeft">
                     <a href="<?= $post->summary_two ?>" class="slider btn btn-primary" aria-label="learn-more-about-us">Xem chi tiết</a>
                 </div>
+                <?php endif;?>
               </div>
           </div>
         </div>
     </div>
+    <?php endif;?>
 </div>
 <?php } ?>
 

@@ -1,3 +1,33 @@
+.ts-pricing-box{
+	border: 1px solid #02587B;
+	background-color: white;
+}
+.ts-pricing-box .ts-pricing-header {
+    background: #02587B;
+}
+.ts-pricing-box .ts-pricing-footer {
+    padding: 20px 20px;
+}
+.ts-pricing-box .ts-pricing-footer:hover{
+	background: red;
+}
+.ts-pricing-box .ts-pricing-footer a:hover{
+	color:white;
+	font-size:130%;
+}
+.ts-pricing-box.ts-pricing-featured{
+	border: 1px solid red;
+}
+.ts-pricing-box.ts-pricing-featured .ts-pricing-header{
+	background: red;
+}
+.ts-pricing-box.ts-pricing-featured .ts-pricing-footer:hover{
+	background: red;
+}
+.btn-red{
+	background: var(--second-color);
+	color:white;
+}
 /*--body-font: "Inter", sans-serif;
     --heading-font: "Literata", sans-serif;*/
 body, p {
@@ -156,11 +186,12 @@ ul.navbar-nav > li:hover > a, ul.navbar-nav > li.active > a {
     font-size: 50px;
     line-height: 58px;
     margin: 20px 0;
-    color: #fff;
+    color: red;
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: -1px;
-    text-shadow: -2px 0 var(--bg-color), 0 2px var(--bg-color), 2px 0 var(--bg-color), 0 -2px var(--bg-color);
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    /*text-shadow: -2px 0 var(--bg-color), 0 2px var(--bg-color), 2px 0 var(--bg-color), 0 -2px var(--bg-color);*/
     /*text-shadow: -2px 0 var(--bg-button-primary), 0 2px var(--bg-button-primary), 2px 0 var(--bg-button-primary), 0 -2px var(--bg-button-primary);*/
 
 }
@@ -169,7 +200,8 @@ ul.navbar-nav > li:hover > a, ul.navbar-nav > li.active > a {
     font-size: 30px;
     line-height: 36px;
     font-weight: 500;
-   /* color: var(--bg-button-primary);*/
+    color: var(--bg-color);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     margin: 20px 0 10px;
     /*text-shadow: -1px 0 var(--bg-color), 0 1px var(--bg-color), 1px 0 var(--bg-color), 0 -1px var(--bg-color);*/
    /* text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;*/
@@ -537,6 +569,13 @@ ul.navbar-nav > li > a {
 .nav-logo-display{
     display: none;
 }
+
+.d-site-sub{
+	text-align: center;
+}
+.d-site-name{
+	text-align: center;
+}
 @media (min-width: 992px){
     .header-one .logo-area {
         padding: 2px 0;
@@ -551,6 +590,13 @@ ul.navbar-nav > li > a {
         margin-top:-32px;
     }
 }
+
+@media (max-width: 1200px){
+   .d-site-name{
+		text-align: center;
+	}
+}
+
 
 @media (min-width: 769px){
     .top-bar {
@@ -578,7 +624,6 @@ ul.navbar-nav > li > a {
     .ts-newsletter {
 	    padding: 15px 0 0 0px;
 	}
-    
 }
 
 .btn-dark{

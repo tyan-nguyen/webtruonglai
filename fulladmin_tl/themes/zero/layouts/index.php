@@ -39,6 +39,9 @@ $this->registerMetaTag(['name'=>'ICBM', 'content'=>'9.9242715, 106.3373696']);
 <div class="body-inner">
 	<?= $this->render('guest/header') ?>
 	<?= $this->render('guest/banner') ?>
+	<?php // $this->render('guest/services_2') ?>
+	<?= $this->render('guest/khoa_hoc') ?>
+	<?= $this->render('guest/map') ?>
 	<?= $this->render('guest/services') ?>
 	<?= $this->render('guest/facts') ?>
 	<?= $this->render('guest/why') ?>

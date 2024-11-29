@@ -32,7 +32,7 @@ class IndexAssets extends AssetBundle
         //Template styles
         'zero/css/theme.css?v=1',
         'zero/css/style.css',
-        'zero/css/custom.css?v=28',
+        'zero/css/custom.css?v=29',
         'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500&family=Roboto+Serif:opsz@8..144&family=Inter:wght@500&family=Literata:opsz,wght@7..72,500&display=swap'
     ];
     public $js = [
